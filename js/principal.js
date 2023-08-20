@@ -19,10 +19,10 @@ function fechar_Menu()
 
 
 var contador=1;
-var img1="../Img/ci1.jpg";
-var img2="../Img/ci2.jpg";
-var img3="../Img/ci3.jpg";
-var img4="../Img/ci4.jpg";
+var img1="../img/ci1.jpg";
+var img2="../img/ci2.jpg";
+var img3="../img/ci3.jpg";
+var img4="../img/ci4.jpg";
 var tempo=4100;
 var exibir=setInterval("Exibindo()", tempo);
 
