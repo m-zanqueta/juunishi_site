@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <title>Juunishi - Juuni Club</title>
+    <link rel="stylesheet" href="../css/fidelidade.css">
+    <script src="principal.js"></script>
+</head>
+
+<body>
+    <header>
+        <section class="lado_a_lado_h">
+        <img href= "index.html" class ="logo" src="logo.svg"></img>
+
+        <section class="menu">
+            <a href="fidelidade.html" target="-blanck">Juuni Club</a>
+			<a href="ondeestamos.html" target="-blanck">Onde Estamos</a>
+			<a href="reserva.html" target="-blanck">Faça Sua Reserva</a>
+        </section>
+
+        <section id = "hamburguer">
+        <span id = "aberto" onClick="abrir_Menu()" class="mostrar_hamb"> &#9776;</span>
+        <span id = "fechado" onClick="fechar_Menu()" class="esconder_hamb"> &#88;</span>
+        </section>
+
+        <aside class = "fechar_menu" id="menu_lateral">
+			<li class = "topo"><a href="fidelidade.html" target="-blanck">Juuni Club</a></li>
+			<li>&nbsp;</li>
+            <br/>
+			<li><a href="ondeestamos.html" target="-blanck">Onde Estamos</a></li>
+			<li>&nbsp;</li>
+            <br/>
+			<li><a href="reserva.html" target="-blanck">Faça Sua Reserva</a></li>
+        </aside>
+    </section>
+    </header>
+    <section class="container">
+        <div class="form-image">
+            <img src="../img/juuniclub.png"/>
+        </div>
+
+        <div class="form">
+            <form method="post" action="mailto:lorenzo.aggio@etec.sp.gov.br" enctype="text/plain">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Faça parte do Juuni Club</h1>
+                    </div>
+                    <div class="login-button">
+                    <a href="index.html">Voltar</a>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email " required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Telefone</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="endereco">Endereço</label>
+                        <input id="endereco" type="text" name="endereco" placeholder="Digite seu endereço">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cpf">CPF</label>
+                        <input id="cpf" type="text" name="cpf" placeholder="xxx.xxx.xxx-xx">
+                    </div>
+                </div>
+                <div class="complements-inputs">
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" id="gender-male" name="gender-male">
+                                <label for="gender-male">Masculino</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" id="gender-female" name="gender-female">
+                                <label for="people_2">Feminino</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" id="gender-other" name="gender-other">
+                                <label for="people_3">Outro</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" id="gender-nenhum" name="gender-nenhum">
+                                <label for="gender-nenhum">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="data_nasc">
+                        <label for="gender-nenhum"><h6>Data de nascimento</h6></label>
+                        <input type="date" id="data_nasc" name="data_nasc">
+                    </div>
+                    <br/>
+                    <div class="uf">
+                        <label for="uf"><h6>Data de nascimento</h6></label>
+                        <select id="uf" name="uf">
+                        <option>AC</option>
+                        <option>AM</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>PR</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>RS</option>
+                        <option>SC</option>
+                        <option>SE</option>
+                        <option selected>SP</option>
+                        <option>TO</option>
+                        </select>
+                    </div>
+                </div>
+                    <br/><br/>
+                <div>
+                    <input type="submit" class="continue-button"></button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>

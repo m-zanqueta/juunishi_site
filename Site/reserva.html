@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <title>Juunishi - Faça Sua Reserva</title>
+    <link rel="stylesheet" href="../css/reserva.css">
+    <script src="../js/principal.js"></script>
+</head>
+
+<body>
+    <header>
+        <section class="lado_a_lado_h">
+        <img class ="logo" src="logo.svg"></img>
+
+        <section class="menu">
+            <a href="fidelidade.html" target="-blanck">Juuni Club</a>
+			<a href="ondeestamos.html" target="-blanck">Onde Estamos</a>
+			<a href="reserva.html" target="-blanck">Faça Sua Reserva</a>
+        </section>
+
+        <section id = "hamburguer">
+        <span id = "aberto" onClick="abrir_Menu()" class="mostrar_hamb"> &#9776;</span>
+        <span id = "fechado" onClick="fechar_Menu()" class="esconder_hamb"> &#88;</span>
+        </section>
+
+        <aside class = "fechar_menu" id="menu_lateral">
+			<li class = "topo"><a href="fidelidade.html" target="-blanck">Juuni Club</a></li>
+			<li>&nbsp;</li>
+            <br/>
+			<li><a href="ondeestamos.html" target="-blanck">Onde Estamos</a></li>
+			<li>&nbsp;</li>
+            <br/>
+			<li><a href="reserva.html" target="-blanck">Faça Sua Reserva</a></li>
+        </aside>
+    </section>
+    </header>
+    <section class="container">
+        <div class="form-image">
+            <img src="undraw_booking_re_gw4j.svg"/>
+        </div>
+
+        <div class="form">
+            <form method="post" action="mailto:lorenzo.aggio@etec.sp.gov.br" enctype="text/plain">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Faça sua reserva</h1>
+                    </div>
+                    <div class="login-button">
+                    <a href="index.html">Voltar</a>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email " required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="club_code">Codigo Junni Club</label>
+                        <input id="club_code" type="text" name="club_code" placeholder="(Opcional) ">
+                    </div>
+                </div>
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Quantidade de pessoas</h6>
+                    </div>
+                    <div class="people-group">
+                        <div class="people-input">
+                            <input type="radio" id="people_1" name="gender">
+                            <label for="people_1">1 pessoa</label>
+                        </div>
+
+                        <div class="people-input">
+                            <input type="radio" id="people_2" name="gender">
+                            <label for="people_2">2 pessoa</label>
+                        </div>
+
+                        <div class="people-input">
+                            <input type="radio" id="people_3" name="gender">
+                            <label for="people_3">3 pessoa</label>
+                        </div>
+
+                        <div class="people-input">
+                            <input type="radio" id="people_4" name="gender">
+                            <label for="people_4">4 pessoa</label>
+                        </div>
+
+                        <div class="people-input">
+                            <input type="radio" id="people_other" name="gender">
+                            <label for="people_other">Mais pessoas</label>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <div class="input-box">
+                        <label for="coment">Comentário</label>
+                        <textarea name ="msg_cliente" id="msg_cliente" cols="30" rows="5" placeholder="Insira um comentário sobre sua reserva, como por exemplo a quantidade de pessoas caso seja selecionada a opção de mais pessoas "></textarea>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="submit" class="continue-button"></button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
