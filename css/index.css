@@ -161,6 +161,7 @@ a
         margin-right: 35%;
         background: rgb(10, 10, 10);
         border-radius: 1.5vw;
+        font-size: 2vw;
     }
     
     .visita p
@@ -712,6 +713,7 @@ textarea
         width: 20vw;
         margin-left: 40%;
         margin-bottom: 0%;
+        font-size: 1vw;
     }
 
     .btn_visita
