@@ -1,6 +1,6 @@
 # 🍜 Projeto Juunishi
 
-Este projeto foi desenvolvido como parte de um trabalho escolar em grupo com o objetivo de criar um site sobre um restaurante utilizando HTML, CSS e JavaScript.
+Este projeto foi desenvolvido como parte de um trabalho escolar em grupo com o objetivo de desenvolver um site na temática de restaurante utilizando HTML, CSS e JavaScript.
 
 ---
 
@@ -25,6 +25,12 @@ Este projeto foi desenvolvido em grupo. Os integrantes estão listados na aba **
 
 ---
 
+## 📝 Observações
+Este projeto foi criado com fins educacionais. Todos os arquivos e recursos utilizados são de uso acadêmico e sem fins lucrativos.
+O projeto Juunishi está sob licença.
+
+---
+
 ## 🔍 Como executar
 
 Clone o repositório ou baixe o projeto e abra o arquivo `index.html` no seu navegador:
@@ -34,6 +40,4 @@ git clone https://github.com/seuusuario/Juunishi.git
 
 ---
 
-## 📝 Observações
-Este projeto foi criado com fins educacionais. Todos os arquivos e recursos utilizados são de uso acadêmico e sem fins lucrativos.
-O projeto Juunishi está sob licença.
+
