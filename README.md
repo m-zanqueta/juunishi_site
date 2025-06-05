@@ -12,7 +12,7 @@
 
 > O Juunishi é um restaurante japonês que envolve seus pratos com os signos orientais e, buscando ampliar seu comércio, entrou em contato
 > com a nossa equipe responsável para a criação de sites. Desenvolvido como um trabalho de conclusão de semestre da ETEC Profº Basilides
-> de Godoy, o site do Juunishi serviu para exercitar eampliar as técnicas de html, css e javascript
+> de Godoy, o site do Juunishi serviu para exercitar eampliar as técnicas de html, css e javascript.
 
 ## ☕ Apresentação
 
