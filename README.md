@@ -9,6 +9,7 @@
 <img src="https://github.com/user-attachments/assets/37d4eefc-0101-4036-a68d-215c7ba27d30" width="300px;" alt="logo juunishi"/><br>
 
 
+
 > O Juunishi é um restaurante japonês que envolve seus pratos com os signos orientais e, buscando ampliar seu comércio, entrou em contato
 > com a nossa equipe responsável para a criação de sites. Desenvolvido como um trabalho de conclusão de semestre da ETEC Profº Basilides
 > de Godoy, o site do Juunishi serviu para exercitar eampliar as técnicas de html, css e javascript
@@ -18,7 +19,7 @@
 Vídeo de apresentação das funcionalidades do projeto:
 
 ```
-VIDEO
+https://github.com/user-attachments/assets/bb448b28-1319-4d70-ae1a-98c34d4adcb6
 ```
 
 ## 💻 Pré-requisitos
