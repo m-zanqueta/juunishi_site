@@ -35,7 +35,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 Para instalar o site do Juunishi, siga estas etapas:
 
 ```
-Baixe o repositório e o execute em sua máquina
+Baixe o site do Juunishi e execute-o em sua máquina
 ```
 
 ## 📫 Contribuindo para o projeto
